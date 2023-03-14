@@ -20,9 +20,6 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 * [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
 
 
-## Author:
-
-
 ## Acknowledgements :pray:
 
 All work contained in this project was completed as part of the curriculum for ALX Africa SE. ALX Africa is an online full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit [this link](https://www.alxafrica.com//).
