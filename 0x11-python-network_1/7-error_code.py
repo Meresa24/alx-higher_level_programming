@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""Take a URL, sends requests ans analyzes HTTP status code"""
-
+""" "Make a request and display errors if any"""
 import requests
-from sys import argv
+import sys
 
 if __name__ == '__main__':
-    response = requests.get(argv[1])
-    if response.status_code >= 400:
-        print("Error code: {}".format(response.status_code))
+    resp_data = requests.get(sys.argv[1])
+    if resp_data.status_code >= 400:
+        print("Error code: {}".format(resp_data.status_code))
     else:
-        print(response.text)
+        print(resp_data.text)

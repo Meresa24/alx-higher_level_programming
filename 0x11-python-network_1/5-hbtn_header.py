@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-""" Uses requests module yo get header info. """
-
+""" Fetch data using request and displays the value of X-Request-Id """
 import requests
-from sys import argv
+import sys
 
 if __name__ == '__main__':
-    response = requests.get(argv[1])
-    print(response.headers.get('X-Request-Id'))
+    resp_data = requests.get(sys.argv[1])
+    print(resp_data.headers.get('X-Request-Id'))
